@@ -1,0 +1,176 @@
+//color//
+$backgroundColor: #EDF2C5
+$darkGreen: #778A50
+$litgtGreen: #f7fbda
+$lightGrey: #7d7d7d
+
+
+//mixin//
+
+=size($w , $h ,$bdrs :3)
+    width: $w
+    height: $h
+    border-radius: $bdrs
+
+=font($fz:16px, $ff:arial black)
+    font-size: $fz
+    font-family: $ff
+
+=flexCenter
+    display: flex
+    justify-content: center
+    align-content: center
+
+
+//css//    
+    
+body
+    width: 1265px
+    height: 880px
+    margin: 0
+    padding: 2
+    margin-left: 50%
+    transform: translateX(-50%)
+    background-color: $backgroundColor
+
+// *
+//     outline: 1px green solid
+
+h1
+    +font
+
+.header
+    width: 940px
+    margin-left: 50%
+    transform: translateX(-50%)
+   
+    .logo
+        +font(44px)
+        color: $darkGreen
+    
+    .nar-right
+        float: right
+        margin-top: -65px
+        +flexCenter
+        margin-right: -10px
+        
+        .fb, .ig
+            height: 100% 
+            margin-right: 10px
+
+        hr
+            transform: rotate(90deg)
+            width: 25px
+            color: $darkGreen
+            margin-top: 12px
+            margin-left: -10px
+        .login, .join
+            
+            +size(60px, 25px, 3px)
+            border: solid 1px  $darkGreen
+            color: $darkGreen
+            margin-right: 10px
+            text-align: center
+            // margin-top: 30px
+            h3
+                margin-top: 3px
+                +font(14px, Arial BoldMT)
+
+.navbar
+    display: flex
+    align-content: center
+    +size(940px, 44px,3px)
+    margin-left: 50%
+    margin-top: -22px
+    transform: translateX(-50%)
+    background-color: $darkGreen
+    .nav-item
+        display: inline-block
+        margin-top: 12px
+        
+    .nav-link
+        +font
+        color: $litgtGreen
+        text-decoration: none
+        padding: 16px 30px 
+        
+        +size(fit-content, fit-content)
+        
+.large-img
+    +flexCenter
+    margin-top: 20px
+
+.main
+    display: flex
+    width: 940px
+    +flexCenter
+    margin-left: 50%
+    transform: translateX(-50%)
+    margin-top: 30PX
+    
+    .main-left-title, .main-right-title
+        background-color:  $darkGreen
+        color: $backgroundColor
+        margin-top: -10px
+        +size(445px, 45px,3px)
+        +font
+    
+    .main-left-title h1
+        padding: 15px 30px 15px 30px
+
+    .main-right-title h1
+        padding: 17px 30px 16px 30px
+
+    .main-left-img
+        display: flex
+        margin-left: -6px
+        margin-top: 10px
+
+    .main-left-img1, .main-left-img2, .main-left-img3
+        padding: 6px
+
+    .main-right
+        margin-left: 45px
+
+    .main-right-content
+        background-color:  $litgtGreen
+        height: 140px
+        border-radius: 3px
+        margin-top: 15px
+    
+        p
+            color:  $lightGrey
+            +font(12px, ArialMT regular)
+            line-height: 1.33
+            padding: 16px 15px 16px 15px
+        hr
+            width: 414px
+            padding: -16px
+            margin: -10px 16px
+
+        
+        .mail-phone
+            margin: -50px 0px
+            line-height: 21.28px
+
+
+footer
+    border-radius: 3px
+    width: 1204px
+    height: 30px
+    +font(12px, ArialMT regular)
+    background-color: $darkGreen
+    padding: 15px 30px 15px 30px
+    color: $backgroundColor
+    text-align: center
+    margin-top: 35px
+        
+    
+
+
+
+    
+        
+    
+    
+

@@ -1,0 +1,212 @@
+body {
+  width: 1265px;
+  height: 880px;
+  margin: 0;
+  padding: 2;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #EDF2C5;
+}
+
+h1 {
+  font-size: 16px;
+  font-family: arial black;
+}
+
+.header {
+  width: 940px;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.header .logo {
+  font-size: 44px;
+  font-family: arial black;
+  color: #778A50;
+}
+
+.header .nar-right {
+  float: right;
+  margin-top: -65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-right: -10px;
+}
+
+.header .nar-right .fb, .header .nar-right .ig {
+  height: 100%;
+  margin-right: 10px;
+}
+
+.header .nar-right hr {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 25px;
+  color: #778A50;
+  margin-top: 12px;
+  margin-left: -10px;
+}
+
+.header .nar-right .login, .header .nar-right .join {
+  width: 60px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #778A50;
+  color: #778A50;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.header .nar-right .login h3, .header .nar-right .join h3 {
+  margin-top: 3px;
+  font-size: 14px;
+  font-family: Arial BoldMT;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 940px;
+  height: 44px;
+  border-radius: 3px;
+  margin-left: 50%;
+  margin-top: -22px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #778A50;
+}
+
+.navbar .nav-item {
+  display: inline-block;
+  margin-top: 12px;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  font-family: arial black;
+  color: #f7fbda;
+  text-decoration: none;
+  padding: 16px 30px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 3;
+}
+
+.large-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 20px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 940px;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 30PX;
+}
+
+.main .main-left-title, .main .main-right-title {
+  background-color: #778A50;
+  color: #EDF2C5;
+  margin-top: -10px;
+  width: 445px;
+  height: 45px;
+  border-radius: 3px;
+  font-size: 16px;
+  font-family: arial black;
+}
+
+.main .main-left-title h1 {
+  padding: 15px 30px 15px 30px;
+}
+
+.main .main-right-title h1 {
+  padding: 17px 30px 16px 30px;
+}
+
+.main .main-left-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -6px;
+  margin-top: 10px;
+}
+
+.main .main-left-img1, .main .main-left-img2, .main .main-left-img3 {
+  padding: 6px;
+}
+
+.main .main-right {
+  margin-left: 45px;
+}
+
+.main .main-right-content {
+  background-color: #f7fbda;
+  height: 140px;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.main .main-right-content p {
+  color: #7d7d7d;
+  font-size: 12px;
+  font-family: ArialMT regular;
+  line-height: 1.33;
+  padding: 16px 15px 16px 15px;
+}
+
+.main .main-right-content hr {
+  width: 414px;
+  padding: -16px;
+  margin: -10px 16px;
+}
+
+.main .main-right-content .mail-phone {
+  margin: -50px 0px;
+  line-height: 21.28px;
+}
+
+footer {
+  border-radius: 3px;
+  width: 1204px;
+  height: 30px;
+  font-size: 12px;
+  font-family: ArialMT regular;
+  background-color: #778A50;
+  padding: 15px 30px 15px 30px;
+  color: #EDF2C5;
+  text-align: center;
+  margin-top: 35px;
+}
+/*# sourceMappingURL=style.css.map */
